@@ -18,8 +18,8 @@ class Image{
   private $height;          //image height.
   private $width;           //image width.
   private $type;            //image type.
-  private $resource_id;     //resource id of the imaged opened.
-  private $new_img;         //new image.
+  private $resource_id;     //resource id of the original image.
+  private $new_img;         //resource id new image.
 
   function __construct($img_file){
     $this->img = $img_file;
